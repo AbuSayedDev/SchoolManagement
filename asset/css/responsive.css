@@ -1,0 +1,235 @@
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 0 20px !important;
+    }
+    .header {
+        display: none;
+    }
+    .bars-menu{
+        font-size: 32px;}
+    .logo{
+        margin-right: 26%;}
+    .card{
+        display: none;}
+    .main-menu-area {
+        margin: 0 0px 0px 0px;
+        flex-wrap: wrap;}
+    .level-menu>ul{
+        flex-direction: column;
+            padding: 20px 0;}
+    .level-menu {
+        position: absolute;
+        width: 34%;
+        left: 0;
+        background: #999;
+        text-align: center;
+        z-index: 999;
+        top: 84px;
+        display: none;}
+    .bars-menu {
+        display: block;}
+    .menu-hide{
+        display: block;}
+/*-----> slider start <------*/
+    .slider-content {
+        padding: 66px 55px 0px 0px;
+        text-align: center;}
+/*-----> principle start <------*/
+    .principl-content {
+        width: 100%;
+        text-align: center;}
+    .principle-section {
+        grid-gap: 30px;
+        padding: 30px 0;}
+    .principle-picture {
+        width: 70%;
+        margin-left: 30%;}
+    .principle-picture img {  
+        left: -30%;}
+/*-----> popural start <------*/
+    .headint-content{
+        padding: 30px 0 0 0;}
+    .couse-slider {
+        grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+        padding: 40px 0 0 0;}
+/*-----> popural start <------*/
+    .counters-text {
+        width: 100%;
+        float: none;
+        text-align: center;}
+    .counters-p {
+        text-align: center;}
+    .counters-area {
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        padding: 0 0 50px 0;}
+/*-----> news start <------*/
+    .news-btn {
+         padding: 25px 0 50px 0;}
+/*-----> student start <------*/
+    .student-text {
+        padding: 80px 15px 30px 15px;
+        text-align: center;}
+    .student-text p {
+        text-align: center;}
+/*-----> student start <------*/
+    .search-heading {
+        padding: 20px;}
+    .search-fild input {
+        width: 65%;
+        margin: 0;}
+/*-----> footer start <------*/
+    .menu-link {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        padding-bottom: 10px;} 
+    .copy-right-social{
+        width: 30%;}
+    .copy-right-area {
+        padding: 5px 0 20px 0;}
+    .copy-right-social ul {
+        flex-wrap: wrap;}
+
+/*-----> about start <------*/
+    .about-p {
+        width: 100%;}
+/*-----> teacher start <------*/
+    .teacher-menu-area {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));}
+    .single-menu-techer-area> img {
+        width: 100%;
+        padding: 0px;}
+
+/*-----> teacher start <------*/
+
+    .headint-title-right{
+        display: flex;}
+    .headint-title-left h1, .course-details-title h1 {
+        font-size: 30px;}
+    .Course-Category, .Course-Sort {
+        padding: 0px;}
+
+/*-----> course-details start <------*/
+    .course-details-menu {
+        padding: 50px 0 0;}
+    .course-details-menu {
+        flex-direction: column;}
+    .single-text-area {
+        width: 100%;
+        margin-bottom: 20px;}
+    .About-Course {
+        width: 100%;}
+    .subject ul li {
+        padding: 0;}
+    .about-instructor-area {
+        width: 60%;
+        padding: 25px 0 0px 0;}
+    .news-heading p, .pgp-3, .pgp-2, .student-heading p, p, small {
+        padding: 0; }
+    .comment {
+        width: 90%;}
+    .fomr-comment-area {
+        padding: 10px 0;}
+    .fomr-comment-area input,.fomr-comment-area textarea{
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0}
+}
+
+
+ @media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+/*-----> slider start <------*/
+    .logo {
+        margin-top: 7px;
+        margin-right: 0;
+        margin-left: 19px;}
+    .logo img {
+        max-width: 80%;}
+    .main-menu-area {
+        flex-wrap: inherit;}
+    .menu-hide>ul>li {
+        padding: 9px 2px;}
+    .menu-hide>ul>li>a {
+        display: flex;}
+
+/*-----> slider start <------*/
+    .slider-content {
+        padding: 35px 0px 0px 0px;}
+    .slider-content h1 {
+        font-size: 25px;}
+    .slider-content p {
+        padding: 20px;}
+    .slider-content button {
+        display: flex;
+        margin-left: 83px;}
+
+/*-----> principle start <------*/
+    .principle-section {
+        grid-template-columns: repeat( auto-fit, minmax(260px, 1fr));
+    }
+/*-----> popural start <------*/
+    .headint-content {
+        padding: 0px 0 0 0;}
+    .couse-slider {
+        padding: 0px 0 0 0;}
+    .popural-btn {
+        padding: 40px 0px 45px 0px;}
+
+/*-----> news start <------*/
+    .recent-news {
+        grid-template-columns: repeat(auto-fit, minmax(270px,1fr));}
+    .news-heading {
+        padding: 20px 0;}
+    .preregrap {
+        border-left:1px solid #56ab2f;}
+    .wrapper-item {
+        flex-wrap: wrap;}
+    .wrapper-item img {
+    width: 100%;}
+
+/*-----> student start <------*/
+.font-color-black-h1 {
+    font-size: 30px;}
+.student-text {
+    padding: 53px 15px 30px 15px;}
+
+/*-----> search start <------*/
+.search-fild input {
+    width: 90%;
+    margin-bottom: 10px;}
+
+/*-----> search start <------*/
+
+.copy-right-area {
+    display: flex;
+    flex-wrap: wrap-reverse !important;
+    flex-direction: column-reverse;}
+.copy-right-social {
+     width: 100%;}
+.copy-right-social ul {
+    padding: 0 17px;}
+/*-----> contact start <------*/
+.main-contact-area {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));}
+.contact-form-area, form, input, textarea {
+    width: 92%;
+    padding: 10px;
+    font-size: 16px;}
+/*-----> popural start <------*/
+.headint-title {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 20px;
+    padding: 60px 0px 34px;}
+/*-----> course-details start <------*/
+    .about-instructor {
+        width: 100%;}
+    .about-instructor-area {
+        width: 100%;}
+    .single-img-area, .single-img-area img {
+        width: 100%;}
+    .single-area-text {
+        padding: 0 0px 0px 10px;}
+    .single-img-area2 {
+        margin-left: 0px;}
+
+  }
